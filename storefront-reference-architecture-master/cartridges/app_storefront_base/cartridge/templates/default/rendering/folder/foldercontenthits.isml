@@ -1,0 +1,3 @@
+<isslot id="folder-1" context="folder" description="folder lavel slot" context-object="" preview-url="" />
+<isslot id="gffhg" context="global" description="" context-object="${pdict.category}" />
+
