@@ -256,10 +256,6 @@ module.exports = function () {
         }
     });
 
-    $('reset btn btn-block btn-outline-primary').on('click', function () {
-        alert('hdfgjdsf');
-    });
-
     $('body').on('click touchend', '.search-mobile button.fa-close', function (e) {
         e.preventDefault();
         $('.suggestions').hide();
