@@ -88,13 +88,13 @@ module.exports = {
     showQuickview: function () {
         $('body').on('click', '.quickview', function (e) {
             e.preventDefault();
-            alert('HII');
             var selectedValueUrl = $(this).closest('a.quickview').attr('href');
             $(e.target).trigger('quickview:show');
             getModalHtmlElement();
             fillModalElement(selectedValueUrl);
         });
     },
+
     focusQuickview: function () {
         $('body').on('shown.bs.modal', '#quickViewModal', function () {
             $('#quickViewModal .close').focus();
