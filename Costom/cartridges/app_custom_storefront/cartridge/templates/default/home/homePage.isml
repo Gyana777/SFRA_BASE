@@ -45,6 +45,6 @@
     <div>
         <a href=" ${pdict.URL}"> Navigate here</a>
         ${pdict.location}
+        ${pdict.Array}
     </div>
-   
 </isdecorate>
